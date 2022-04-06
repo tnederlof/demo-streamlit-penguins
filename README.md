@@ -2,6 +2,16 @@
 
 Publish a Streamlit dashboard to RStudio Connect.
 
+## Run the app
+
+To run the app locally:
+
+```bash
+source venv/bin/activiate
+pip install -r app/requirements.txt
+streamlit run app/app.py
+```
+
 ## Deploy
 
 First add a new server:
