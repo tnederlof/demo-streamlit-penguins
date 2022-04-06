@@ -1,7 +1,7 @@
 {
     "https://colorado.rstudio.com/rsc/": {
         "server_url": "https://colorado.rstudio.com/rsc/",
-        "filename": "/usr/home/sam.edwardes/projects/demo-streamlit-penguins/app",
+        "filename": "/Users/samedwardes/git/samedwardes/demo-streamlit-penguins/app",
         "app_url": "https://colorado.rstudio.com/rsc/connect/#/apps/f8dd198e-4b1a-48d7-a819-6f36e0ad006e",
         "app_id": "f8dd198e-4b1a-48d7-a819-6f36e0ad006e",
         "app_guid": "f8dd198e-4b1a-48d7-a819-6f36e0ad006e",

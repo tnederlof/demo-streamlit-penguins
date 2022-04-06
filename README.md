@@ -1,6 +1,6 @@
 # demo-streamlit-penguins
 
-Publish a Streamlit dashboard to RStudio Connect.
+![screenshot](imgs/app-screenshot.png)
 
 ## Run the app
 
