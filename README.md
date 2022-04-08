@@ -1,8 +1,11 @@
 # demo-streamlit-penguins
 
+- Code: <https://github.com/SamEdwardes/demo-streamlit-penguins>
+- Deployment: <https://colorado.rstudio.com/rsc/demo-streamlit-penguins/>
+
 ![screenshot](imgs/app-screenshot.png)
 
-## Run the app
+## Usaage
 
 To run the app locally:
 
