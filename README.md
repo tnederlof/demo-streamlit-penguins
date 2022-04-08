@@ -12,23 +12,16 @@ pip install -r app/requirements.txt
 streamlit run app/app.py
 ```
 
-## Deploy
+## Deployment
 
-First add a new server:
-
-```bash
-rsconnect add \
-    --server https://colorado.rstudio.com/rsc/ \
-    --name colorado.rstudio.com \
-    --api-key $CONNECT_API_KEY
-```
-
-Then deploy the app to the server:
+The app is automatically deployed to RStudio connect using git backed deployment. Make any changes to the code, then run the following:
 
 ```bash
-rsconnect deploy streamlit \
-    --server https://colorado.rstudio.com/rsc/ \
-    --python ./venv/bin/python \
-    --entrypoint app.py \
-    app/
+rsconnect write-manifest streamlit \
+  --overwrite \
+  --python venv/bin/python \
+  --entrypoint app \
+  app
 ```
+
+> ⚠️ Remember to update the `app/requirements.txt` file if you add any new packages. 
