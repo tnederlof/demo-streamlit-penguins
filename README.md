@@ -10,12 +10,24 @@
 To run the app locally:
 
 ```bash
-source venv/bin/activiate
+source venv/bin/activate
 pip install -r app/requirements.txt
 streamlit run app/app.py
 ```
 
 ## Deployment
+
+### Programatic deploy
+
+```bash
+rsconnect deploy streamlit \
+  --python venv/bin/python \
+  --entrypoint app \
+  --title "Streamlit Penguins Programatic Deploy" \
+  app
+```
+
+### Git-backed deploy
 
 The app is automatically deployed to RStudio connect using git backed deployment. Make any changes to the code, then run the following:
 
