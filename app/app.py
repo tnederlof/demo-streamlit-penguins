@@ -5,7 +5,7 @@ import altair as alt
 url = "https://github.com/allisonhorst/palmerpenguins/raw/master/inst/extdata/penguins.csv"
 data = pd.read_csv(url)
 
-st.write("# Meeting the penguins!")
+st.write("# Meeting the penguins!2")
 
 col_text, col_image = st.columns([8, 4])
 
